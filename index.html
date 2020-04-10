@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>INSPIRE</title>
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+				});
+			});
+		</script>
+</head>
+<body>
+	<div class="header" id="home">
+		<div class="container">
+			<div class="logo">
+				<a href="index.html"><img src="images/logo12.jpg" alt="" width="430px" height="140px" style="margin-top: 9px; border-radius: 45%"></a>
+			</div>
+			<div class="navigation">
+			 <span class="menu"></span> 
+				<ul class="navig">
+					<li><a class="active" href="index.html">Inicio</a><span> </span></li>
+					<li><a href="destinos.html">Destinos</a><span> </span></li>
+					<li><a href="vuelos.html">Lista de Vuelos</a><span> </span></li>
+				</ul>
+			</div>
+		 <script>
+				$("span.menu").click(function(){
+					$(" ul.navig").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		</div>
+	</div>	
+	<div class="banner" id="home">
+		<div class="container">
+			<section class="slider">
+                <div class="flexslider">
+                	<div class="welcome-top">
+				<font face="times new roman"><h1 style="color: black">INSPIRE SRL.</h1></font>
+			</div>
+                    <ul class="slides">
+						<li>
+							<div class="banner-top">
+							<div class="col-md-6 banner-left">
+							<div class="bnr-one">
+								<img src="images/im.jpg" alt="" />
+								<h3>Viaja a Madrid</h3>
+								<a href="destinos.html">Ver Destinos</a>
+							</div>
+						</div>
+						<div class="col-md-6 banner-left">
+							<div class="bnr-one">
+								<img src="images/ir.jpg" alt="" />
+								<h3>Viaja a Moscú</h3>
+								<a href="destinos.html">Ver Destinos</a>
+							</div>
+						</div>
+						
+						<div class="clearfix"></div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-top">
+						<div class="col-md-6 banner-left">
+							<div class="bnr-one">
+								<img src="images/is.jpg" alt="" />
+								<h3>Viaja a Miami</h3>
+								<a href="destinos.html">Ver Destinos</a>
+							</div>
+						</div>
+						<div class="col-md-6 banner-left">
+							<div class="bnr-one">
+								<img src="images/ip.jpg" alt="" />
+								<h3>Viaja a Paris</h3>
+								<a href="destinos.html">Ver Destinos</a>
+							</div>
+						</div>
+						
+						<div class="clearfix"></div>
+					</div>
+				</li>
+				<li>
+					<div class="banner-top">
+						<div class="col-md-6 banner-left">
+							<div class="bnr-one">
+								<img src="images/iro.jpg" alt="" />
+								<h3>Viaja a Roma</h3>
+								<a href="destinos.html">Ver Destinos</a>
+							</div>
+						</div>
+						<div class="col-md-6 banner-left">
+							<div class="bnr-one">
+								<img src="images/if.jpg" alt="" />
+								<h3>Viaja a Florencia</h3>
+								<a href="destinos.html">Ver Destinos</a>
+							</div>
+						</div>
+						
+						<div class="clearfix"></div>
+					</div>
+				</li>
+          </ul>
+        </div>
+      </section>
+		</div>
+	</div>
+	<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
+	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript">
+    $(function(){
+      SyntaxHighlighter.all();
+    });
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>
+</div>
+	<div class="welcome">
+		<div class="container">
+			<div class="welcome-top">
+				<font face="times new roman"><h1>BIENVENIDO A INSPIRE WEB</h1></font>
+				<font face="times new roman"><p> Para disfrutar de la vida y de un cómodo viaje hacia los destinos más hermosos de Europa y el Mundo, debes tener la mejor Aerolínea para hacerlo. Es por eso que nos presentamos para darte un viaje feliz y espectacular con nuestros mejores precios y la mejor atención en vuelos jamás antes vista. Disfruta del Momento, disfruta de tu Libertad, inspírate para conocer el Mundo... Somos INSPIRE.</p></font>
+			</div>
+		</div>
+	</div> 
+	<div class="nature">
+		<div class="container">
+			<div class="nature-top">
+				<h3>INSPIRE</h3>
+				<p>Cuando necesitas un empujón para aventurarte, Cuando viajas para encontrarte contigo mismo, Cuando no necesitas razones para viajar, Cuando piensas que ese boleto de avión está caro, Cuando nadie más entiende que viajar es tu actividad favorita,Cuando te das cuenta que viajar es tu mejor escuela... TODO ESTO Y MÁS LO ENCUENTRAS CON NOSOTROS, INSPIRE.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="container">
+			<div class="footer-top">
+				<div class="col-md-4 footer-left">
+					<p>INSPIRE</p>
+				</div>
+				<div class="col-md-4 footer-left">
+					<h3>Síguenos</h3>
+					<ul>
+						<li><a href="#"><span class="fb"> </span></a></li>
+						<li><a href="#"><span class="twit"> </span></a></li>
+						<li><a href="#"><span class="google"> </span></a></li>
+						<li><a href="#"><span class="pin"> </span></a></li>
+					</ul>
+				</div>
+				<div class="col-md-4 footer-left">
+					<h3>inspire@gmail.com</h3> 
+					<span style="color: white">79451264/22196541</span></p>
+				</div>
+				<div class="clearfix"></div>
+			</div>
+		</div>
+		<script type="text/javascript">
+									$(document).ready(function() {
+									$().UItoTop({ easingType: 'easeOutQuart' });
+										
+									});
+								</script>
+		<a href="#home" id="toTop" class="scroll" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+	</div>
+</body>
+</html>
